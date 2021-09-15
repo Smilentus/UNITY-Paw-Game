@@ -1,0 +1,416 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1908249085255001782
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9191614544155574987}
+  - component: {fileID: 5313365430812762402}
+  - component: {fileID: 483893226}
+  m_Layer: 0
+  m_Name: TreasuresManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9191614544155574987
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908249085255001782}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.675821, y: 146.07751, z: -157.28778}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5313365430812762402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908249085255001782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b03648735b4358149b66cb137df4a7c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lvlTreasurePoints:
+  - TPName: TreasurePoint
+    TPparams:
+    - itemType: 1
+      itemChance: 50
+    - itemType: 2
+      itemChance: 20
+    - itemType: 3
+      itemChance: 10
+    - itemType: 4
+      itemChance: 10
+    - itemType: 5
+      itemChance: 5
+    - itemType: 6
+      itemChance: 5
+  - TPName: TreasurePoint
+    TPparams:
+    - itemType: 1
+      itemChance: 50
+    - itemType: 2
+      itemChance: 20
+    - itemType: 3
+      itemChance: 10
+    - itemType: 4
+      itemChance: 10
+    - itemType: 5
+      itemChance: 5
+    - itemType: 6
+      itemChance: 5
+  - TPName: TreasurePoint
+    TPparams:
+    - itemType: 1
+      itemChance: 50
+    - itemType: 2
+      itemChance: 20
+    - itemType: 3
+      itemChance: 10
+    - itemType: 4
+      itemChance: 10
+    - itemType: 5
+      itemChance: 5
+    - itemType: 6
+      itemChance: 5
+  - TPName: TreasurePoint
+    TPparams:
+    - itemType: 1
+      itemChance: 50
+    - itemType: 2
+      itemChance: 20
+    - itemType: 3
+      itemChance: 10
+    - itemType: 4
+      itemChance: 10
+    - itemType: 5
+      itemChance: 5
+    - itemType: 6
+      itemChance: 5
+  - TPName: TreasurePoint
+    TPparams:
+    - itemType: 1
+      itemChance: 50
+    - itemType: 2
+      itemChance: 20
+    - itemType: 3
+      itemChance: 10
+    - itemType: 4
+      itemChance: 10
+    - itemType: 5
+      itemChance: 5
+    - itemType: 6
+      itemChance: 5
+  - TPName: TreasurePoint
+    TPparams:
+    - itemType: 1
+      itemChance: 50
+    - itemType: 2
+      itemChance: 20
+    - itemType: 3
+      itemChance: 10
+    - itemType: 4
+      itemChance: 10
+    - itemType: 5
+      itemChance: 5
+    - itemType: 6
+      itemChance: 5
+  - TPName: TreasurePoint
+    TPparams:
+    - itemType: 1
+      itemChance: 50
+    - itemType: 2
+      itemChance: 20
+    - itemType: 3
+      itemChance: 10
+    - itemType: 4
+      itemChance: 10
+    - itemType: 5
+      itemChance: 5
+    - itemType: 6
+      itemChance: 5
+  - TPName: TreasurePoint
+    TPparams:
+    - itemType: 1
+      itemChance: 50
+    - itemType: 2
+      itemChance: 20
+    - itemType: 3
+      itemChance: 10
+    - itemType: 4
+      itemChance: 10
+    - itemType: 5
+      itemChance: 5
+    - itemType: 6
+      itemChance: 5
+  - TPName: TreasurePoint
+    TPparams:
+    - itemType: 1
+      itemChance: 50
+    - itemType: 2
+      itemChance: 20
+    - itemType: 3
+      itemChance: 10
+    - itemType: 4
+      itemChance: 10
+    - itemType: 5
+      itemChance: 5
+    - itemType: 6
+      itemChance: 5
+  - TPName: TreasurePoint
+    TPparams:
+    - itemType: 1
+      itemChance: 50
+    - itemType: 2
+      itemChance: 20
+    - itemType: 3
+      itemChance: 10
+    - itemType: 4
+      itemChance: 10
+    - itemType: 5
+      itemChance: 5
+    - itemType: 6
+      itemChance: 5
+  - TPName: TreasurePoint
+    TPparams:
+    - itemType: 1
+      itemChance: 50
+    - itemType: 2
+      itemChance: 20
+    - itemType: 3
+      itemChance: 10
+    - itemType: 4
+      itemChance: 10
+    - itemType: 5
+      itemChance: 5
+    - itemType: 6
+      itemChance: 5
+  - TPName: TreasurePoint
+    TPparams:
+    - itemType: 1
+      itemChance: 50
+    - itemType: 2
+      itemChance: 20
+    - itemType: 3
+      itemChance: 10
+    - itemType: 4
+      itemChance: 10
+    - itemType: 5
+      itemChance: 5
+    - itemType: 6
+      itemChance: 5
+  - TPName: TreasurePoint
+    TPparams:
+    - itemType: 1
+      itemChance: 50
+    - itemType: 2
+      itemChance: 20
+    - itemType: 3
+      itemChance: 10
+    - itemType: 4
+      itemChance: 10
+    - itemType: 5
+      itemChance: 5
+    - itemType: 6
+      itemChance: 5
+  - TPName: TreasurePoint
+    TPparams:
+    - itemType: 1
+      itemChance: 50
+    - itemType: 2
+      itemChance: 20
+    - itemType: 3
+      itemChance: 10
+    - itemType: 4
+      itemChance: 10
+    - itemType: 5
+      itemChance: 5
+    - itemType: 6
+      itemChance: 5
+  - TPName: TreasurePoint
+    TPparams:
+    - itemType: 1
+      itemChance: 50
+    - itemType: 2
+      itemChance: 20
+    - itemType: 3
+      itemChance: 10
+    - itemType: 4
+      itemChance: 10
+    - itemType: 5
+      itemChance: 5
+    - itemType: 6
+      itemChance: 5
+  - TPName: TreasurePoint
+    TPparams:
+    - itemType: 1
+      itemChance: 50
+    - itemType: 2
+      itemChance: 20
+    - itemType: 3
+      itemChance: 10
+    - itemType: 4
+      itemChance: 10
+    - itemType: 5
+      itemChance: 5
+    - itemType: 6
+      itemChance: 5
+  - TPName: TreasurePoint
+    TPparams:
+    - itemType: 1
+      itemChance: 50
+    - itemType: 2
+      itemChance: 20
+    - itemType: 3
+      itemChance: 10
+    - itemType: 4
+      itemChance: 10
+    - itemType: 5
+      itemChance: 5
+    - itemType: 6
+      itemChance: 5
+  - TPName: TreasurePoint
+    TPparams:
+    - itemType: 1
+      itemChance: 50
+    - itemType: 2
+      itemChance: 20
+    - itemType: 3
+      itemChance: 10
+    - itemType: 4
+      itemChance: 10
+    - itemType: 5
+      itemChance: 5
+    - itemType: 6
+      itemChance: 5
+  - TPName: TreasurePoint
+    TPparams:
+    - itemType: 1
+      itemChance: 50
+    - itemType: 2
+      itemChance: 20
+    - itemType: 3
+      itemChance: 10
+    - itemType: 4
+      itemChance: 10
+    - itemType: 5
+      itemChance: 5
+    - itemType: 6
+      itemChance: 5
+  - TPName: TreasurePoint
+    TPparams:
+    - itemType: 1
+      itemChance: 50
+    - itemType: 2
+      itemChance: 20
+    - itemType: 3
+      itemChance: 10
+    - itemType: 4
+      itemChance: 10
+    - itemType: 5
+      itemChance: 5
+    - itemType: 6
+      itemChance: 5
+  - TPName: TreasurePoint
+    TPparams:
+    - itemType: 1
+      itemChance: 50
+    - itemType: 2
+      itemChance: 20
+    - itemType: 3
+      itemChance: 10
+    - itemType: 4
+      itemChance: 10
+    - itemType: 5
+      itemChance: 5
+    - itemType: 6
+      itemChance: 5
+  - TPName: TreasurePoint
+    TPparams:
+    - itemType: 1
+      itemChance: 50
+    - itemType: 2
+      itemChance: 20
+    - itemType: 3
+      itemChance: 10
+    - itemType: 4
+      itemChance: 10
+    - itemType: 5
+      itemChance: 5
+    - itemType: 6
+      itemChance: 5
+  - TPName: TreasurePoint
+    TPparams:
+    - itemType: 1
+      itemChance: 50
+    - itemType: 2
+      itemChance: 20
+    - itemType: 3
+      itemChance: 10
+    - itemType: 4
+      itemChance: 10
+    - itemType: 5
+      itemChance: 5
+    - itemType: 6
+      itemChance: 5
+  - TPName: TreasurePoint
+    TPparams:
+    - itemType: 1
+      itemChance: 50
+    - itemType: 2
+      itemChance: 20
+    - itemType: 3
+      itemChance: 10
+    - itemType: 4
+      itemChance: 10
+    - itemType: 5
+      itemChance: 5
+    - itemType: 6
+      itemChance: 5
+  - TPName: TreasurePoint
+    TPparams:
+    - itemType: 1
+      itemChance: 50
+    - itemType: 2
+      itemChance: 20
+    - itemType: 3
+      itemChance: 10
+    - itemType: 4
+      itemChance: 10
+    - itemType: 5
+      itemChance: 5
+    - itemType: 6
+      itemChance: 5
+--- !u!114 &483893226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908249085255001782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43bbe5f7aea3d9e43b657acd58fe9f6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  treasureScore: 0
+  treasureMultiplier: 1
+  SpeedChanged: 0
+  SpeedReduce: 0
+  isCarryingPurse: 0
+  isCarryingAmulet: 0
+  isShowingThrough: 0
